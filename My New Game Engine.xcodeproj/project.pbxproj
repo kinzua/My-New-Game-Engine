@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F43D9B19B743630084690E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F43D9A19B743630084690E /* Cocoa.framework */; };
+		84F43DA519B743630084690E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F43DA319B743630084690E /* InfoPlist.strings */; };
+		84F43DA719B743630084690E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F43DA619B743630084690E /* main.m */; };
+		84F43DAB19B743630084690E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84F43DA919B743630084690E /* Credits.rtf */; };
+		84F43DAE19B743630084690E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F43DAD19B743630084690E /* AppDelegate.m */; };
+		84F43DB119B743630084690E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F43DAF19B743630084690E /* MainMenu.xib */; };
+		84F43DB319B743630084690E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F43DB219B743630084690E /* Images.xcassets */; };
+		84F43DBA19B743630084690E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F43DB919B743630084690E /* XCTest.framework */; };
+		84F43DBB19B743630084690E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F43D9A19B743630084690E /* Cocoa.framework */; };
+		84F43DC319B743630084690E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F43DC119B743630084690E /* InfoPlist.strings */; };
+		84F43DC519B743630084690E /* My_New_Game_EngineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F43DC419B743630084690E /* My_New_Game_EngineTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F43DBC19B743630084690E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F43D8F19B743630084690E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F43D9619B743630084690E;
+			remoteInfo = "My New Game Engine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84F43D9719B743630084690E /* My New Game Engine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My New Game Engine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F43D9A19B743630084690E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84F43D9D19B743630084690E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84F43D9E19B743630084690E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84F43D9F19B743630084690E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84F43DA219B743630084690E /* My New Game Engine-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My New Game Engine-Info.plist"; sourceTree = "<group>"; };
+		84F43DA419B743630084690E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84F43DA619B743630084690E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F43DA819B743630084690E /* My New Game Engine-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My New Game Engine-Prefix.pch"; sourceTree = "<group>"; };
+		84F43DAA19B743630084690E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		84F43DAC19B743630084690E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F43DAD19B743630084690E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F43DB019B743630084690E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84F43DB219B743630084690E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84F43DB819B743630084690E /* My New Game EngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My New Game EngineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F43DB919B743630084690E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84F43DC019B743630084690E /* My New Game EngineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "My New Game EngineTests-Info.plist"; sourceTree = "<group>"; };
+		84F43DC219B743630084690E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84F43DC419B743630084690E /* My_New_Game_EngineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_New_Game_EngineTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F43D9419B743630084690E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F43D9B19B743630084690E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F43DB519B743630084690E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F43DBB19B743630084690E /* Cocoa.framework in Frameworks */,
+				84F43DBA19B743630084690E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F43D8E19B743630084690E = {
+			isa = PBXGroup;
+			children = (
+				84F43DA019B743630084690E /* My New Game Engine */,
+				84F43DBE19B743630084690E /* My New Game EngineTests */,
+				84F43D9919B743630084690E /* Frameworks */,
+				84F43D9819B743630084690E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F43D9819B743630084690E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F43D9719B743630084690E /* My New Game Engine.app */,
+				84F43DB819B743630084690E /* My New Game EngineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F43D9919B743630084690E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F43D9A19B743630084690E /* Cocoa.framework */,
+				84F43DB919B743630084690E /* XCTest.framework */,
+				84F43D9C19B743630084690E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F43D9C19B743630084690E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F43D9D19B743630084690E /* AppKit.framework */,
+				84F43D9E19B743630084690E /* CoreData.framework */,
+				84F43D9F19B743630084690E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84F43DA019B743630084690E /* My New Game Engine */ = {
+			isa = PBXGroup;
+			children = (
+				84F43DAC19B743630084690E /* AppDelegate.h */,
+				84F43DAD19B743630084690E /* AppDelegate.m */,
+				84F43DAF19B743630084690E /* MainMenu.xib */,
+				84F43DB219B743630084690E /* Images.xcassets */,
+				84F43DA119B743630084690E /* Supporting Files */,
+			);
+			path = "My New Game Engine";
+			sourceTree = "<group>";
+		};
+		84F43DA119B743630084690E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F43DA219B743630084690E /* My New Game Engine-Info.plist */,
+				84F43DA319B743630084690E /* InfoPlist.strings */,
+				84F43DA619B743630084690E /* main.m */,
+				84F43DA819B743630084690E /* My New Game Engine-Prefix.pch */,
+				84F43DA919B743630084690E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F43DBE19B743630084690E /* My New Game EngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F43DC419B743630084690E /* My_New_Game_EngineTests.m */,
+				84F43DBF19B743630084690E /* Supporting Files */,
+			);
+			path = "My New Game EngineTests";
+			sourceTree = "<group>";
+		};
+		84F43DBF19B743630084690E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F43DC019B743630084690E /* My New Game EngineTests-Info.plist */,
+				84F43DC119B743630084690E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F43D9619B743630084690E /* My New Game Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F43DC819B743630084690E /* Build configuration list for PBXNativeTarget "My New Game Engine" */;
+			buildPhases = (
+				84F43D9319B743630084690E /* Sources */,
+				84F43D9419B743630084690E /* Frameworks */,
+				84F43D9519B743630084690E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My New Game Engine";
+			productName = "My New Game Engine";
+			productReference = 84F43D9719B743630084690E /* My New Game Engine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F43DB719B743630084690E /* My New Game EngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F43DCB19B743630084690E /* Build configuration list for PBXNativeTarget "My New Game EngineTests" */;
+			buildPhases = (
+				84F43DB419B743630084690E /* Sources */,
+				84F43DB519B743630084690E /* Frameworks */,
+				84F43DB619B743630084690E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F43DBD19B743630084690E /* PBXTargetDependency */,
+			);
+			name = "My New Game EngineTests";
+			productName = "My New Game EngineTests";
+			productReference = 84F43DB819B743630084690E /* My New Game EngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F43D8F19B743630084690E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "FISH Games";
+				TargetAttributes = {
+					84F43DB719B743630084690E = {
+						TestTargetID = 84F43D9619B743630084690E;
+					};
+				};
+			};
+			buildConfigurationList = 84F43D9219B743630084690E /* Build configuration list for PBXProject "My New Game Engine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F43D8E19B743630084690E;
+			productRefGroup = 84F43D9819B743630084690E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F43D9619B743630084690E /* My New Game Engine */,
+				84F43DB719B743630084690E /* My New Game EngineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F43D9519B743630084690E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F43DA519B743630084690E /* InfoPlist.strings in Resources */,
+				84F43DB319B743630084690E /* Images.xcassets in Resources */,
+				84F43DAB19B743630084690E /* Credits.rtf in Resources */,
+				84F43DB119B743630084690E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F43DB619B743630084690E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F43DC319B743630084690E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F43D9319B743630084690E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F43DAE19B743630084690E /* AppDelegate.m in Sources */,
+				84F43DA719B743630084690E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F43DB419B743630084690E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F43DC519B743630084690E /* My_New_Game_EngineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F43DBD19B743630084690E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F43D9619B743630084690E /* My New Game Engine */;
+			targetProxy = 84F43DBC19B743630084690E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F43DA319B743630084690E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F43DA419B743630084690E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84F43DA919B743630084690E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F43DAA19B743630084690E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		84F43DAF19B743630084690E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F43DB019B743630084690E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		84F43DC119B743630084690E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F43DC219B743630084690E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F43DC619B743630084690E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84F43DC719B743630084690E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84F43DC919B743630084690E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My New Game Engine/My New Game Engine-Prefix.pch";
+				INFOPLIST_FILE = "My New Game Engine/My New Game Engine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84F43DCA19B743630084690E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My New Game Engine/My New Game Engine-Prefix.pch";
+				INFOPLIST_FILE = "My New Game Engine/My New Game Engine-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84F43DCC19B743630084690E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My New Game Engine.app/Contents/MacOS/My New Game Engine";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My New Game Engine/My New Game Engine-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "My New Game EngineTests/My New Game EngineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84F43DCD19B743630084690E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/My New Game Engine.app/Contents/MacOS/My New Game Engine";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "My New Game Engine/My New Game Engine-Prefix.pch";
+				INFOPLIST_FILE = "My New Game EngineTests/My New Game EngineTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F43D9219B743630084690E /* Build configuration list for PBXProject "My New Game Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F43DC619B743630084690E /* Debug */,
+				84F43DC719B743630084690E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F43DC819B743630084690E /* Build configuration list for PBXNativeTarget "My New Game Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F43DC919B743630084690E /* Debug */,
+				84F43DCA19B743630084690E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F43DCB19B743630084690E /* Build configuration list for PBXNativeTarget "My New Game EngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F43DCC19B743630084690E /* Debug */,
+				84F43DCD19B743630084690E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F43D8F19B743630084690E /* Project object */;
+}
